@@ -1,0 +1,11 @@
+/*скрытие элементов списка layout*/
+.first {
+display: none;
+}
+
+.second {
+/*visibility: hidden; */
+/*непрозрачность*/
+/*opacity: 0; */
+color: transperent;
+}

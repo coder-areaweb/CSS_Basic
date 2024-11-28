@@ -1,0 +1,30 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  /*transition плавность перехода*/
+  transition: all 1s ease;
+}
+
+img:hover {
+  /*filter: blur(2px); размытие*/
+  /*filter: drop-shadow (5px 6px 4px rgba (0, 0, 0, 0.5)); отбростень*/
+  /*  filter: grayscale(80%);  обесвечивание от 0 до 100% и отрицательные зн-я невоспринимает*/
+  /* filter: brightness(100%); яркость от -50% до 150%*/
+  /*filter: contrast(150%); контраст*/
+    /*filter: hue-rotate(180deg); поворотное наложение цвета фона от 0 до 360*/
+      /* filter: invert(20%);эффект инвертирования цвета от 0 до 100%*/
+        /*filter: saturate(100%); насыщенность от 0 до бесконечности*/
+          /*   filter: sepia(100%); сепия эффект старены от 0 до 100%*/
+
+    /* filter: opacity(50%); прозрачность от 0 до 100%*/
+    /*можно использовать несколько фильтров*/
+filter: blur(2px) opacity(50%);
+/*можно свой фильтр filter: url(); */
+
+}

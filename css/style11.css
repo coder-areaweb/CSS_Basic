@@ -1,0 +1,55 @@
+/*граница */
+.example {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: 20px;
+  /* толщина границы*/
+  border-width: 10px;
+  /* тип грани solid сплошная/dashed прерывистая/dotted точки/double двойную сплошную */
+  border-style: dashed;;
+  /* цвет границы */
+  border-color: red;
+
+/* можно указывать более точнее и выборочно*/
+
+border-left: none;
+border-top-style: none;
+
+border-bottom-width: 30px;
+border-top-color: blue;
+  /* можно все указать в одном элементе border: 1px dolid red*/
+}
+/* такую обводку можно задать ко всему элементу без дополнительных св-в*/
+.example {
+  outline: 10px solid aqua;
+}
+
+.shadow {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: 20px;
+  /*тень на элементе зн-1 смещение по-горизонтали зн-2 по-вертикали зн-3 размытие
+  также можно задавать множественные зн-я смещений как и тенями текста*/
+  box-shadow: 1px 2px 5px blue, -1px -2px 5px green;
+  /**/
+}
+
+.box_shadow {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: 20px;
+  /*более вдавленный элемент и конкретный*/
+  box-shadow: 2px 5px 5px blue inset, -2px -5px 5px green inset;
+  /**/
+}
+
+h1 {
+  /*тень на текст зн-е1 (лево-право) зн-2 вверх-вниз зн-е3 размытие знач-е4 цвет*/
+  text-shadow: 1px 2px 5px red, -1px -2px 5px yellow;
+
+  /**/
+
+}

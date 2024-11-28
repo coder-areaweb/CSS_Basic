@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table,
+table * {
+  border: 1px solid black;
+  max-width: 500px;
+  border-collapse: separate;
+border-spacing: 10px 50px;
+/*заголовок поменяем сверху вниз*/
+  caption-side: bottom;
+  text-align: center;
+  vertical-align: middle;
+  /*чтоб убрать видимость ячейки пустой
+empty-cells:hide
+  */
+  cursor: pointer;
+}
+
+/*
+.dis,
+td {
+  pointer-events: none;
+}
+
+*/

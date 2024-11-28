@@ -1,0 +1,50 @@
+element.style {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  color: blue;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  line-height: 100px;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  text-indent: 20px;
+}
+
+/* подключение по сылке
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  font-style: italic;
+}
+*/
+/* подключение закаченного */
+@font-face{
+  font-family: "Roboto";
+  src: url("/home/athlet/Desktop/CSS (webSev)/Roboto-Regular.ttf") format ("truetype")
+  /* нужно конвертировать для лучшей кроссбраузерности */
+  src: url("/home/athlet/Desktop/CSS (webSev)/Roboto-Regular.woff") format ("woff")
+  src: url("/home/athlet/Desktop/CSS (webSev)/Roboto-Regular.woff2") format ("woff2")
+  src: url("/home/athlet/Desktop/CSS (webSev)/Roboto-Regular.otf") format ("opentype")
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Roboto";
+  src: url("/home/athlet/Desktop/CSS (webSev)/Roboto-BoldItalic.ttf") format ("truetype")
+  /* нужно конвертировать для лучшей кроссбраузерности */
+  src: url("/home/athlet/Desktop/CSS (webSev)/Roboto-BoldItalic.woff") format ("woff")
+  src: url("/home/athlet/Desktop/CSS (webSev)/Roboto-BoldItalic.woff2") format ("woff2")
+  src: url("/home/athlet/Desktop/CSS (webSev)/Roboto-BoldItalic.otf") format ("opentype")
+  font-weight: 500;
+  font-style: normal;

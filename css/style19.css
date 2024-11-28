@@ -1,0 +1,42 @@
+.example {
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  animation-name: myAnim;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 3;
+  animation-direction: reverse;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  /* все описанное выше можно вновь записать одной стройкой */
+}
+
+  .example:hover {
+animation-play-state: paused;
+  }
+
+  /* определяем директиву @keyframes определил 3 кадра from/50%/to кол-во кадров безграничное
+  1кадр = 1 frame*/
+  @keyframes myAnim {
+    from {
+background-color: orange;
+    }
+    50% {
+background-color: yellow;
+transform: scale(1.2);
+    }
+    to {
+background-color: red;
+transform: scale(1.4);
+    }
+  }
+/* директиву keyframes лучше записывать короткой форме:
+@keyframes bgChange {
+from {background-color: aqua;}
+50% {background-color: green;}
+to {background-color: red;}
+А далее описать тэгом animation в короткой форме в блоке класса .example
+}
+*/

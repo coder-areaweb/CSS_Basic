@@ -1,0 +1,42 @@
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+min-height: 100vh;
+width: 100%;
+background-color: gainsboro;
+background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.GLcp0F8ZIS4_UmnG7LZbNAAAAA%26pid%3DApi&f=1&ipt=fa67a4c1ad7aef8d07f41d395b920bf955de3f39c4e198307ac99299481f6bd2&ipo=images);
+/*размер еще можно указать
+background-size: contain;
+*/
+
+background-size: 800px 800px;
+
+/* фон повтор */
+background-repeat:round;
+
+/* позиционировани фона можно применять точные значения px и %, а также можно указывать одним и двумя словами
+background-position:center center
+background-position:center right;;
+ */
+background-position:top;
+/* фон в поле зрения
+background-attachment: fixed;
+
+/*
+background: grey
+url ()
+50%_800pxor centercenter rigth 50%(800px) or center/center rigth round fixed;
+*/
+
+/* фон можно определить один свойством вместо ранее указанных вариантов описанием св-в элментов */
+
+/* множественное фоновое изображение
+background: url (), url ();
+no-repeat center;
+ */
+
+}

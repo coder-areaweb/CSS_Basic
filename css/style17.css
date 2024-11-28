@@ -1,0 +1,15 @@
+body {
+  border: 2px solid black;
+  height: 169px;
+}
+img {
+  /*transition плавность перехода*/
+  transition: all 1s ease;
+  overflow: hidden;
+}
+
+/* все изменения будем проводить по наведению*/
+img:hover {
+transform:translate(50px, 40px);
+
+}

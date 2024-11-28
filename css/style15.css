@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+/* градиент линейный зн-е1 угол наклона зн-е2 начальный цвет зн-е3 конечный цвет
+можно вместо background-image использоватьЖ
+background:linear-gradient(90deb, black, white);
+*/
+background-image: linear-gradient(90deg, black, white);
+
+}
+
+
+.wrapper2 {
+  min-height: 100vh;
+  width: 100%;
+/* градиент радиальный по-умолчанию эллипс*/
+background: radial-gradient(white, black, red);
+}
+
+.wrapper3 {
+  min-height: 100vh;
+  width: 100%;
+/* градиент радиальный
+background: radial-gradient(circle closest-side, black, white);
+*/
+background: repeating-radial-gradient(circle closest-side, black, white);
+}

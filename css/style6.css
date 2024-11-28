@@ -1,0 +1,33 @@
+span,
+div {
+border: 10px solid red;
+/*
+margin: 10px; /*отступ снаружи*/
+padding: 5px; /*отступ внутри*/
+*/
+/*полный формат отступов пишется ниже: top-right-bottom-left format
+в порядке по часовой стрелке up(top)/down (bottom) or left/right*/
+margin: 10 px 20px 30px 40px;
+padding: 5px 10px 20px 30px;
+}
+
+.test {
+  display:inline;
+}
+
+div {
+  display: block;
+}
+
+.mar {
+  margin:10px;
+  width: 100px;
+  height: 100px
+  display:inline-block;
+  box-sizing: border-box;
+}
+
+h4 {
+  font-weight: bold;
+  color:green;
+}

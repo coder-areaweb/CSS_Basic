@@ -1,0 +1,50 @@
+<!-- * {
+color:red;
+} -->
+
+<!--
+p {
+  color: green;
+}
+-->
+
+<!--
+h1 {
+  color: blue;
+}
+-->
+
+.heading1 {
+  text-decoration: underline;
+}
+
+.heading2 {
+  text-transform: uppercase;
+}
+
+.ddfont {
+  font-size: 20px;
+}
+
+#heading {
+  font-size: 40px;
+  border: 1px solid black;
+  color:blue;
+}
+#heading3 {
+  font-size: 41px;
+  border: 1px solid black;
+}
+
+<!--Составной селектор -->
+q {
+  color:blue;
+}
+
+q.simple {
+  color:yellow;
+}
+
+body q.simple {
+  color: fuchsia;
+}

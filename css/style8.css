@@ -1,0 +1,41 @@
+li {
+/*  font-size: 18px; */
+  /* font-size: 80%; */
+/* font-size: 2em; */
+font-size: 2rem;
+}
+
+/* переопределить размер rem можно, только через тэг html */
+html {
+  font-size: 10px;
+}
+
+.main {
+  /* font-size: 40px; */
+    font-size: 2px;
+}
+
+.overlay {
+background-color: rgba (0, 0, 0, 0, 5);
+color: grey;
+width: 100vw;
+height:100vh;
+box-sizing:border-box;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+}
+
+.modal {
+  border: 2px solid black;
+  width: 300px;
+  heigth: 300px;
+  background-color: cornflowerblue;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  z-index: 2;
+  /*overflow: auto; */
+  overflow-y: auto;
+}

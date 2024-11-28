@@ -1,0 +1,51 @@
+.wrapper,
+.wrapper2,
+.item {
+  padding: 20px;
+  color: white;
+}
+
+/* уже устарел на смену пришли  flexgrid, flexbox, smartgrid
+img {
+float: right;
+}
+*/
+
+.wrapper {
+  background-color: grey;
+/*
+  overflow: auto;
+*/
+}
+
+/*
+.clear {
+  clear: both;
+}
+*/
+/* clearfix*/
+.wrapper: after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.wrapper2 {
+  background-color: green;
+}
+
+.item1 {
+  background-color: yellow;
+  float: right;
+}
+.item2 {
+  background-color: blue;
+}
+.item3 {
+  background-color: orange;
+  float: left;
+  }
+
+  div {
+    display: block;
+  }

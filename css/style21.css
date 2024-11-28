@@ -1,0 +1,30 @@
+.example {
+  font-size: 30px;
+  border: 1px solid black;
+  width: 150px;
+  min-height: 150px;
+  /* обрезаем выступающий текст */
+  /*overflow: hidden;
+  text-overflow: ellipsis;
+  */
+  /* делаем однострочный текст без перехода на другую строку*/
+/*
+  white-space:nowrap;
+  */
+/*есть еще одно значение переход текста, если он непомещается */
+/*word-wrap: break-word; */
+/* еще зна-е перехода слов*/
+/*word-break: break-all; */
+/* еще-зн-е*/
+/* writing-mode: vertical-rl; */
+/* */
+}
+
+.container {
+  column-count: 3;
+  column-rule: 1px solid red;
+  column-width: 300px;
+  column-gap: 100px;
+  word-wrap: break-word;
+
+}
